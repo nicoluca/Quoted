@@ -21,12 +21,6 @@ public class Book extends Source {
         super(title);
         this.author = author;
     }
-//
-//    public Book(String title, Author author, String coverPath) {
-//        super(title);
-//        this.author = author;
-//        this.coverPath = coverPath;
-//    }
 
     @Override
     public boolean equals(Object o) {
